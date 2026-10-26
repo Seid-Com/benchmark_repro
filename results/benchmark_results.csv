@@ -1,0 +1,10 @@
+scope,operation,payload_mb,cpu_value,gpu_value,unit,speedup
+measured,aes-gcm,1,1420.1,,MB/s,
+measured,aes-gcm,8,1446.9,,MB/s,
+measured,aes-gcm,64,1390.1,,MB/s,
+measured,aes-gcm,256,1373.9,,MB/s,
+measured,aes-gcm,1200,930.6,,MB/s,
+reported,aes-gcm,1200,1390,8300.0,MB/s,6.0
+reported,sha-256,,14.0,1850.0,MH/s,132
+reported,end-to-end-tps,,95,620.0,TPS,6.5
+reported,block-latency,,5.0,2.1,s,

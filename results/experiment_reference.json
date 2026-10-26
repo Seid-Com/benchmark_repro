@@ -1,0 +1,23 @@
+{
+  "reported": {
+    "gpu": "NVIDIA RTX 4090",
+    "cpu": "Intel Core i9-13900K",
+    "aes_cpu_mbs": 1390,
+    "aes_gpu_mbs": 8300.0,
+    "sha_cpu_mhs": 14.0,
+    "sha_gpu_mhs": 1850.0,
+    "tps": 620.0,
+    "latency_s": 2.1,
+    "encryption_mode": "AES-256-GCM",
+    "payload_sizes_mb": [
+      1,
+      8,
+      64,
+      256,
+      1200
+    ],
+    "repetitions": 5,
+    "statistic": "median"
+  },
+  "note": "Values reported in the article. GPU column is the reference configuration; regenerate with benchmark_repro.py on equivalent hardware."
+}

@@ -1,0 +1,80 @@
+{
+  "aes": [
+    {
+      "payload_mb": 1,
+      "median_s": 0.000704,
+      "throughput_mbs": 1420.1,
+      "cv_percent": 2.5
+    },
+    {
+      "payload_mb": 8,
+      "median_s": 0.005529,
+      "throughput_mbs": 1446.9,
+      "cv_percent": 2.07
+    },
+    {
+      "payload_mb": 64,
+      "median_s": 0.046041,
+      "throughput_mbs": 1390.1,
+      "cv_percent": 3.41
+    },
+    {
+      "payload_mb": 256,
+      "median_s": 0.186327,
+      "throughput_mbs": 1373.9,
+      "cv_percent": 12.28
+    },
+    {
+      "payload_mb": 1200,
+      "median_s": 1.289457,
+      "throughput_mbs": 930.6,
+      "cv_percent": 23.18
+    }
+  ],
+  "sha": {
+    "hash_rate_mhs": 0.49,
+    "cv_percent": 24.76,
+    "reps": 5,
+    "seconds_per_rep": 0.6,
+    "bound": "python-interpreter",
+    "bulk": {
+      "bulk_mbs": 447.4,
+      "payload_mb": 256,
+      "cv_percent": 20.29
+    }
+  },
+  "aes_impl": "cryptography-AESGCM",
+  "reported": {
+    "gpu": "NVIDIA RTX 4090",
+    "cpu": "Intel Core i9-13900K",
+    "aes_cpu_mbs": 1390,
+    "aes_gpu_mbs": 8300.0,
+    "sha_cpu_mhs": 14.0,
+    "sha_gpu_mhs": 1850.0,
+    "tps": 620.0,
+    "latency_s": 2.1,
+    "encryption_mode": "AES-256-GCM",
+    "payload_sizes_mb": [
+      1,
+      8,
+      64,
+      256,
+      1200
+    ],
+    "repetitions": 5,
+    "statistic": "median"
+  },
+  "environment": {
+    "timestamp_utc": "2026-10-24T18:08:45+00:00",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+    "python": "3.12.10",
+    "cpu_count": 8,
+    "numpy": "2.5.3",
+    "seed": 20261024,
+    "cryptography": "50.0.2",
+    "matplotlib": "3.11.2",
+    "python_docx": "1.2.0"
+  }
+}

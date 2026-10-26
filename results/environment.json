@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-10-24T18:08:45+00:00",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+  "python": "3.12.10",
+  "cpu_count": 8,
+  "numpy": "2.5.3",
+  "seed": 20261024,
+  "cryptography": "50.0.2",
+  "matplotlib": "3.11.2",
+  "python_docx": "1.2.0"
+}
